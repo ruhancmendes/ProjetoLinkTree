@@ -7,8 +7,8 @@
 :root {
   --text-color: white;
   --bg-url: url(./assets/bg-mobile-dark.png);
-  --stroke-color: rgba(255, 255, 255, 0.5);
-  --surface-color: rgba(255, 255, 255, 0.1);
+  --stroke-color: rgba(255, 255, 255, 0.9);
+  --surface-color: rgba(255, 255, 255, 0.2);
   --surface-color-hover: rgba(255, 255, 255, 0.05);
   --highlight-color: rgba(255, 255, 255, 0.2);
   --switch-bg-url: url(./assets/moon-stars.svg);
@@ -32,8 +32,8 @@ body {
   background-size: cover;
   */
   /*background: color image repeat position/size */
-  background: var(--bg-url) no-repeat top center/cover;
-  height: 100vh;
+  background: var(--bg-url) no-repeat center/cover;
+  height: 90vh;
 }
 
 body * {
